@@ -14,7 +14,8 @@ body {
   min-width: 420px;
   background-color: rgb(250, 215, 215);
   padding: 20px;
-  box-shadow: 0 35px 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 35px 40px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 .conatiner::before {
   content: "";
@@ -31,9 +32,9 @@ body {
   color: rgba(0, 0, 0, 0.788);
   font-size: 2.5em;
   margin-bottom: 2%;
-  padding-left: 30%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Courgette", cursive;
 }
+
 .conatiner .card {
   position: relative;
   display: flex;
